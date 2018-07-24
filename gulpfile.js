@@ -125,9 +125,9 @@ gulp.task('clean', getTask('./gulp/clean', {
 }));
 
 gulp.task('pre-commit', [
-	'lint',
+	// 'lint',
 	// 'check-epam-email',
-	'check-deps-exact',
+	// 'check-deps-exact',
 ]);
 gulp.task('assets', ['copy', 'help']);
 gulp.task('code', ['style', 'script', 'html']);
