@@ -143,12 +143,12 @@ class TemplateLib extends Component {
 				params={omit(['group'], props)}
 				result={() => this.result()}
 				buttons={[
-					<SaveButton
-						data={sdf.stringify(this.props.lib)}
-						filename="ketcher-tmpls.sdf"
-					>
-						Save To SDF…
-					</SaveButton>,
+					// <SaveButton
+					// 	data={sdf.stringify(this.props.lib)}
+					// 	filename="ketcher-tmpls.sdf"
+					// >
+					// 	Save To SDF…
+					// </SaveButton>,
 					'Cancel', 'OK']}
 			>
 				<label>

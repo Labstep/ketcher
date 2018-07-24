@@ -59,26 +59,26 @@ const mainmenu = [
 			}
 		]
 	},
-	{
-		id: 'process',
-		menu: [
-			'layout',
-			'clean',
-			'arom',
-			'dearom',
-			'cip',
-			'check',
-			'analyse',
-			'recognize',
-			'miew'
-		]
-	},
+	// {
+	// 	id: 'process',
+	// 	menu: [
+	// 		'layout',
+	// 		'clean',
+	// 		'arom',
+	// 		'dearom',
+	// 		'cip',
+	// 		'check',
+	// 		'analyse',
+	// 		'recognize',
+	// 		'miew'
+	// 	]
+	// },
 	{
 		id: 'meta',
 		menu: [
 			'settings',
 			'help',
-			'about'
+			// 'about'
 		]
 	}
 ];
@@ -169,7 +169,7 @@ const template = [
 		component: TemplatesList
 	},
 	'template-lib',
-	'chiral-flag'
+	// 'chiral-flag'
 ];
 
 const elements = [
